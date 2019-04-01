@@ -1,4 +1,4 @@
-node('Windows_Node') {
+node('node160') {
     
     properties([
         buildDiscarder(logRotator(daysToKeepStr: '30', numToKeepStr: '14'))
