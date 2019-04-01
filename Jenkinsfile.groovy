@@ -10,7 +10,7 @@ node('node160') {
     }
     
     stage('Checkout') {
-        git branch: 'selenium-grid', url: 'https://github.com/wireapp/Winium.Desktop.git'
+        git branch: "${params.branch}", url: 'https://github.com/wireapp/Winium.Desktop.git'
     }
     
     stage('Download NuGet') {
