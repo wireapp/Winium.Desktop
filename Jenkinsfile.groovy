@@ -1,4 +1,4 @@
-node('node160') {
+node('node130') {
     
     properties([
         buildDiscarder(logRotator(daysToKeepStr: '30', numToKeepStr: '14'))
