@@ -26,7 +26,12 @@ You have Selenium WebDriver for testing of web apps, Appium for testing of iOS a
 > - You can use any testing framework.
 
 ## Requirements
-* Microsoft .NET Framework 4.5.1
+* Visual Studio Community (2019) with:
+  * C# and Visual Basic Roslyn compilers
+  * MSBuild
+  * .NET Framework 4.5 targeting pack
+  * .NET Framework 4.5.1 targeting pack
+  * .NET Portable Library targeting pack
 
 ## Quick Start
 1. Write your tests using you favorite language. In your tests use `app` [desired capability](https://github.com/2gis/Winium.Desktop/wiki/Capabilities) to set path to tested app's exe file. Here is python example:
